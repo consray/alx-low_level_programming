@@ -2,6 +2,8 @@
 
 /**
  * time_table - print the 9 times table
+ *
+ * Return: Always 0 (Success)
  */
 void times_table(void)
 {
