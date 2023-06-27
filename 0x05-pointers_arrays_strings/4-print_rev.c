@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print-rev - print value of character s in reverse
- * @s: string
- * Return: Always 0 (Success)
+ * print_rev - prints a string in reverse
+ * followed by a new line
+ * @s: string to be checked
+ * Return: 0
  */
 void print_rev(char *s)
 {
@@ -16,8 +17,7 @@ void print_rev(char *s)
 		s++;
 	}
 	s--;
-
-	for (o == longi; o > 0; 0--)
+	for (o = longi; o > 0; o--)
 	{
 		_putchar(*s);
 		s--;
