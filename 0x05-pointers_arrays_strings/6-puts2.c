@@ -18,7 +18,7 @@ void puts2(char *str)
 		y++;
 		longi++;
 	}
-	t = longo - 1;
+	t = longi - 1;
 
 	for (o = 0; o <= t; o++)
 	{
