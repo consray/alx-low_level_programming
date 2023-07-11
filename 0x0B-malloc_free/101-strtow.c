@@ -18,7 +18,7 @@ int count(char *s)
 		{
 			f = 0;
 		}
-		else if (flag == 0)
+		else if (f == 0)
 		{
 			f = 1;
 			w++;
@@ -64,7 +64,7 @@ char **strtow(char *str)
 			}
 		}
 		else if (c++ == 0)
-			stsrt = i;
+			start = i;
 	}
 	m[k] = NULL;
 	return (m);
