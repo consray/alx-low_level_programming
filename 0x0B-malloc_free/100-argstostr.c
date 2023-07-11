@@ -16,15 +16,11 @@ char *argstostr(int ac, char **av)
 	l = 0;
 
 	if (ac == 0 || av == NULL)
-	{
 		return (NULL);
-	}
 	for (i = 0; i < ac; i++)
 	{
 		for (n = 0; av[i][n]; n++)
-		{
 			l++;
-		}
 	}
 	l += ac;
 
@@ -40,8 +36,6 @@ char *argstostr(int ac, char **av)
 		}
 	}
 	if (str[r] == '\0')
-	{
-		str[r++] = "\n";
-	}
+		str[r++] = '\n';
 	return (str);
 }
