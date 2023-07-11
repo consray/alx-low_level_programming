@@ -42,10 +42,11 @@ char **strtow(char *str)
 	words = count(str);
 	if (words == 0)
 		return (NULL);
+
 	m = (char **) malloc(sizeof(char *) * (words + 1));
 	if (m == NULL)
 		return (NULL);
-	for (i = 0; i < len; i++)
+	for (i = 0; i <= len; i++)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
 		{
