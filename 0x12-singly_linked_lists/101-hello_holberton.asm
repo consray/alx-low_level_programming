@@ -1,5 +1,5 @@
 	global main
-	 extern prinf
+	extern prinf
 main:
 	mov edi, format
 	xor eax, eax
